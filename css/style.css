@@ -263,3 +263,33 @@ section > div > p > a > i:hover {
 .box2 > p:nth-child(11) {
   background: #999;
 }
+/* box3 */
+.box3 > p:nth-child(1) {
+  width: 50%;
+  height: 100%;
+  background: url(../imgs/k1.jpg) no-repeat center center;
+  background-size: cover;
+}
+.box3 > p:nth-child(2) {
+  background: #444;
+}
+.box3 > p:nth-child(3) {
+  background: url(../imgs/k2.jpg) no-repeat center center;
+  background-size: cover;
+}
+.box3 > p:nth-child(4) {
+  width: 50%;
+  background: #222;
+}
+.box3 > p:nth-child(5) {
+  height: 50%;
+  background: url(../imgs/k3.jpg) no-repeat center center;
+  background-size: cover;
+}
+.box3 > p:nth-child(6) {
+  background: #888;
+}
+.box3 > p:nth-child(7) {
+  background: url(../imgs/k4.jpg) no-repeat center center;
+  background-size: cover;
+}
