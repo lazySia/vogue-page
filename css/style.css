@@ -112,7 +112,9 @@ section > div {
 }
 section > div > p {
   float: left;
+  width: 25%;
   height: 25%;
+  margin-bottom: 0;
   text-align: center;
   overflow: hidden;
   transform: rotate3d(0, 1, 0, 180deg);
@@ -130,7 +132,7 @@ section > div > p > strong {
   left: 0;
   top: 50%;
   width: 100%;
-  margin-top: -10px;
+  margin-top: -35px;
   font-size: 50px;
   color: #f4f4f4;
   text-align: center;
@@ -147,6 +149,7 @@ section > div > p > span {
 }
 section > div > p > video {
   width: 100%;
+  height: 100%;
   background: #000;
 }
 section > div > p > a {
@@ -163,4 +166,58 @@ section > div > p > a > i {
 }
 section > div > p > a > i:hover {
   transform: scale(1.15);
+  opacity: 1;
 }
+/* box1 */
+.box1 > p:nth-child(1) {
+  width: 50%;
+  background: #222;
+}
+.box1 > p:nth-child(2) {
+  background: url(../imgs/m1.jpg) no-repeat center center;
+  background-size: cover;
+}
+.box1 > p:nth-child(3) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #444;
+}
+.box1 > p:nth-child(4) {
+  float: right;
+  width: 50%;
+  height: 50%;
+  background: url(../imgs/m2.jpg) no-repeat center center;
+  background-size: cover;
+}
+.box1 > p:nth-child(5) {
+  float: right;
+  background: url(../imgs/m3.jpg) no-repeat center center;
+  background-size: cover;
+}
+.box1 > p:nth-child(6) {
+  float: right;
+  background: #777;
+}
+.box1 > p:nth-child(7) {
+  float: right;
+  background: #444;
+}
+.box1 > p:nth-child(8) {
+  float: right;
+  background: url(../imgs/m4.jpg) no-repeat center center;
+  background-size: cover;
+}
+.box1 > p:nth-child(9) {
+  width: 50%;
+  background: url(../imgs/m5.jpg) no-repeat center center;
+  background-size: cover;
+}
+.box1 > p:nth-child(10) {
+  background: #444;
+}
+.box1 > p:nth-child(11) {
+  background: #222;
+}
+/* box2 */
+/* box3 */
