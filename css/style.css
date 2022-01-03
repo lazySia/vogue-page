@@ -114,9 +114,8 @@ section > div > p {
   float: left;
   width: 25%;
   height: 25%;
-  margin-bottom: 0;
-  text-align: center;
   overflow: hidden;
+  text-align: center;
   transform: rotate3d(0, 1, 0, 180deg);
   transition: all 1.5s ease-in-out;
 }
@@ -149,7 +148,7 @@ section > div > p > span {
 }
 section > div > p > video {
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   background: #000;
 }
 section > div > p > a {
@@ -200,6 +199,9 @@ section > div > p > a > i:hover {
   background: #777;
 }
 .box1 > p:nth-child(7) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   float: right;
   background: #444;
 }
